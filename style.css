@@ -1,0 +1,216 @@
+body {
+    background-color: #fff5e6;
+    padding-top: 70px;
+}
+/* Header */
+.navbar {
+    background-color: #ffb347;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in; 
+}
+.navbar .nav-link {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navbar .nav-link:hover {
+    color: #fff0db;
+}
+.btn-get-offer {
+    background-color: #ff7f50;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.btn-get-offer:hover {
+    background-color: #ff6347;
+}
+
+/* Carousel */
+.carousel-item img {
+    max-height: 690px;
+    object-fit: cover;
+}
+
+/* About Section */
+.about-section {
+    background-color: #fff0db;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Services Section */
+.services-section h2 {
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+.card-service img {
+    max-height: 250px;
+    object-fit: cover;
+}
+.card-service .card-body a {
+    color: #ff7f50;
+    font-weight: bold;
+    text-decoration: none;
+}
+.card-service .card-body a:hover {
+    color: #ff6347;
+}
+
+/* Footer */
+footer {
+    background-color: #ffb347;
+    color: white;
+    /* padding: 15px; */
+    font-family: Arial, sans-serif;
+    padding: 20px 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: #ff6347;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+  
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+  
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 1px 0;
+}
+  
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.footer-section ul li::before {
+    content: "› ";
+    color: #ff6347;
+}
+  
+.social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+  
+.social-icons a:hover {
+    background-color: #ff6347;
+}
+  
+.footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    border-top: 1px solid #000000;
+}
+  
+
+
+nav.navbar.scrolled {
+    background-color: #000000; 
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.section-line {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color: rgb(255, 172, 7);
+    margin-bottom: 1rem;
+}
+.content {
+    line-height: 1.7;
+    color: #000000;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container .ratio{
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.container p a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.container a:hover{
+    color: #ff6347;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#penting {
+    background-color: #ffb347;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+/* Add this CSS for transitions */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.vertical-line {
+    border-left: 2px solid black; /* set line thickness and color */
+    height: 330px; /* set line height */
+    margin: 0 auto; /* center the line */
+}
